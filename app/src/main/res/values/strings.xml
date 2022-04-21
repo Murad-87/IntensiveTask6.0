@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">MyIntensiveTask6.0</string>
+
+    <string name="empty_fields_error_message">Поля не должны быть пустыми</string>
+    <string name="delete_item_long_click_title">Внимание!</string>
+    <string name="delete_item_long_click_description">Вы точно хотите удалить выбранный элемент?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">Отмена</string>
 </resources>
