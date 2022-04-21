@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp">
+
+    <ImageView
+        android:id="@+id/contact_item_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        tools:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/contact_item_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/contact_item_image"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Мурад" />
+
+    <TextView
+        android:id="@+id/contact_item_last_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_item_name"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/contact_item_image"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        tools:text="Юсупов" />
+
+    <TextView
+        android:id="@+id/contact_item_phone_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact_item_last_name"
+        android:layout_marginStart="10dp"
+        android:layout_toEndOf="@id/contact_item_image"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="89380041414" />
+
+</RelativeLayout>
